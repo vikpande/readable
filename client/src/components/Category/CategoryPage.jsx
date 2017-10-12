@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Navbar} from "../Navbar";
-// import {bindActionCreators} from "redux";
+import {bindActionCreators} from "redux";
 import * as actions from '../../actions/posts'
 import {connect} from "react-redux";
 import * as helpers from "../../utils/helpers";
