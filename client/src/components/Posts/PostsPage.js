@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {Navbar} from "../Navbar";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
@@ -6,7 +6,7 @@ import PostList from "./PostList";
 import * as postActions from "../../actions/posts";
 import * as commentActions from "../../actions/comments";
 import * as helpers from "../../utils/helpers";
-import Modal from  'react-modal'
+import Modal from  'react-modal';
 
 
 class PostsPage extends Component {
