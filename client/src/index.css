@@ -1,7 +1,11 @@
 body {
-  margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Helvetica;
+  margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 60px;
+  margin-left: 20px;
+  background-color: #c4cde0;
 }
 
 .margin-top-10{

@@ -9,6 +9,7 @@ import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 import Modal from 'react-modal'
 import {Redirect} from 'react-router'
+// import { Button } from 'semantic-ui-react'
 
 class Post extends React.Component {
 

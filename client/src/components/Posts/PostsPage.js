@@ -93,12 +93,12 @@ class PostsPage extends Component {
         <Navbar/>
         <div className="container">
           <div className="row margin-top-10">
-            <div className="col-md-12">
+            <div className="col-md-12 justify-content-center ml-md-auto">
               <label className="control-label">Categories</label>
               <div className="alert alert-info" role="alert">
                 {this.props.categories.map(category => (
                   <a href={"/"+category.path} style={{textDecoration:null}} key={category.path} className="margin-15">
-                    <h1 className="badge badge-secondary" style={{fontSize: 16}}>{category.name}</h1>
+                    <h1 className="badge badge-primary" style={{fontSize: 16}}>{category.name}</h1>
                   </a>
                 ))}
               </div>
@@ -106,14 +106,14 @@ class PostsPage extends Component {
           </div>
           <div className="row margin-top-10">
             <div className="col-md-2">
-              <label className="control-label">Order By:</label>
+              <label className="control-label">Sort By:</label>
               <select className="form-control" value={this.state.sortBy} onChange={this.changeSortMethod}>
                 <option value="voteScore">Vote Score</option>
                 <option value="timestamp">TimeStamp</option>
               </select>
             </div>
             <div className="col-md-2 justify-content-center ml-md-auto">
-              <button className="btn btn-dark margin-top-10" onClick={this.openModal}><i className="fa fa-plus"></i> Create Post</button>
+              <button className="btn btn-light margin-top-10" onClick={this.openModal}><i className="fa fa-plus"></i> Add Post</button>
             </div>
           </div>
           <div className="row">
@@ -146,7 +146,7 @@ class PostsPage extends Component {
                     ))}
                   </select>
                 </div>
-                <button type="submit" className="btn btn-primary">Create Post</button>
+                <button type="submit" className="btn btn-primary">Add Post</button>
               </form>
             </div>
           </div>

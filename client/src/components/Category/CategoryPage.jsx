@@ -38,11 +38,11 @@ class CategoryPage extends Component {
 
   render() {
     return (
-      <div className="container-fluid" style={{padding:0}}>
+      <div className="container-fluid" style={{padding:2}}>
         <Navbar/>
         <div className="container">
           <div className="row margin-top-10">
-            <div className="col-md-12">
+            <div className="col-md-8">
               <label className="control-label">Categories</label>
               <div className="alert alert-info" role="alert">
                 {this.props.categories.map(category => (
