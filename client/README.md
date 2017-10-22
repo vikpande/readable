@@ -20,22 +20,7 @@ The repo has two projects a client and a server ( client is a react app and the 
 
 - Server - Has the node server application
 
-Change to server directory (cd server) and run the follwing commands on your terminal
-
-```
-cd api-server 
-```
-```
-yarn OR npm install
-```
-
-```
-yarn start or npm start
-```
-At this point your node server starts and is rendered on port 3001
-
-
-Now change to client directory (cd client) and install:
+this directory has only the client server : Change to server directory (cd client ) and run the following commands on your terminal
 
 ```
 cd client 
@@ -47,7 +32,7 @@ yarn OR npm install
 ```
 yarn start or npm start
 ```
-YOu can now view the web-app on yoru localhost on port 3000 
+You can now view the web-app on your localhost on port 3000 
 
 Contributing
 

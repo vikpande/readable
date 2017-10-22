@@ -1,6 +1,7 @@
 
 # Readable project  
 - Part of the Nanodegree course. This webapp uses React, Redux and Thunk
+ You can view the working app here - https://vikpande.github.io/readable/#/ 
 
 ## Getting Started
 
@@ -20,7 +21,7 @@ The repo has two projects a client and a server ( client is a react app and the 
 
 - Server - Has the node server application
 
-Change to server directory (cd server) and run the follwing commands on your terminal
+Change to server directory (cd server) and run the following commands on your terminal
 
 ```
 cd api-server 
@@ -47,7 +48,7 @@ yarn OR npm install
 ```
 yarn start or npm start
 ```
-YOu can now view the web-app on yoru localhost on port 3000 
+You can now view the web-app on your localhost on port 3000 
 
 Contributing
 
