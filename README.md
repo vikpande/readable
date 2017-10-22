@@ -1,6 +1,15 @@
 
 # Readable project  
-- Part of the Nanodegree course. This webapp uses React, Redux and Thunk
+- Part of the Nanodegree course. This webapp uses React, Redux and Thunk. 
+
+# High Level features of the app: 
+
+-  Users can post content to predefined categories os posts
+-  Users can add new categories of posts
+-  Users can comment on their posts and other users' posts
+-  Users can vote on posts and comments
+-  Users Can also edit and delete posts and comments
+
  You can view the working app here - https://vikpande.github.io/readable/#/ 
 
 ## Getting Started
