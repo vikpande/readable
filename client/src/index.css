@@ -25,3 +25,9 @@ body {
   display: inline-block;
   margin-left: 10px
 }
+
+.white-wrapper {
+  background: #ffffff;
+  padding: 10px 0 3px 0;
+  text-align: center;
+}

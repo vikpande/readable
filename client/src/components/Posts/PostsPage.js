@@ -95,7 +95,7 @@ class PostsPage extends Component {
           <div className="row margin-top-10">
             <div className="col-md-12 justify-content-center ml-md-auto">
               <label className="control-label">Categories</label>
-              <div className="alert alert-info" role="alert">
+              <div className="white-wrapper">
                 {this.props.categories.map(category => (
                   <a href={"/"+category.path} style={{textDecoration:null}} key={category.path} className="margin-15">
                     <h1 className="badge badge-primary" style={{fontSize: 16}}>{category.name}</h1>
