@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
 import reducer from './reducers';
@@ -20,9 +20,9 @@ store.dispatch(loadAllCategories())
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <HashRouter>
       {routes}
-    </BrowserRouter>
+    </HashRouter>
   </Provider>
   , document.getElementById('root'));
 registerServiceWorker();
