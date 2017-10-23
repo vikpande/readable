@@ -10,8 +10,6 @@
 -  Users can vote on posts and comments
 -  Users Can also edit and delete posts and comments
 
- You can view the working app here - https://vikpande.github.io/readable/#/ 
-
 ## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
@@ -71,5 +69,6 @@ Contributing
 Vikas Pandey
 
 ## Want to contribute
-Create your own branch, make changes and then create a pull request.
+- Create your own branch, make changes and then create a pull request.
+- ToDo - Deployment
 
