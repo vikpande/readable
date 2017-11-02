@@ -2,7 +2,7 @@
 
 This is the starter project for the final assessment project for Udacity's Redux course where you will build a content and comment web app. 
 
-This repository includes the code for the backend API Server that you'll use to develop and interact with the front-end portion of the project.
+This repository includes the code for the backend API Server that you'll use to interact with the front-end portion of the project.
 
 ## Start Developing:
 
